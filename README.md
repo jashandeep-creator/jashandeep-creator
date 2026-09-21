@@ -1,4 +1,4 @@
-# Hey, I'm Jashandeep 👋
+# Hey, I'm Jashandeep Singh 👋
 
 I'm currently a high school student, graphic designer and developer. I like making things with code and trying out new ideas whenever I get one. I mostly work with Python and Java, but I also enjoy working with AI, computer vision, automation and hardware projects.
 
@@ -8,7 +8,7 @@ I am still learning a lot and definitely break things quite often while building
 
 ### Tech Stack & Tools
 
-**Languages:** Python, Java, HTML, CSS, JavaScript, C++ (Arduino)
+**Languages:** Python, Java, HTML, C++ (Arduino)
 
 **Desktop Apps:** PySide6, CustomTkinter
 
@@ -26,7 +26,7 @@ I like making projects which are not just basic tutorials and try to add my own 
 
 **LifeSearch:** A file search app which helps find files using normal descriptions instead of remembering the exact file name or folder.
 
-**AHS Smart Library Management System:** A desktop library management system made for managing books, students and issue/return records.
+**Smart Library Management System:** A desktop library management system made for managing books, students and issue/return records.
 
 **JASHAN AIR TYPE:** A small computer vision project where hand movements are used to type without using a physical keyboard.
 
