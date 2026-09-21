@@ -34,6 +34,6 @@ I like making projects which are not just basic tutorials and try to add my own 
 
 ### Outside Coding
 
-Apart from coding, I like graphic designing, video editing, live streaming and working on different school projects. I also like experimenting with hardware and trying things which I have never made before.
+Apart from coding, I like graphic designing, video editing, live streaming and working on different projects. I also like experimenting with hardware and trying things which I have never made before.
 
 I'm still learning and figuring things out, but I enjoy building stuff and seeing an idea turn into something that actually works.
