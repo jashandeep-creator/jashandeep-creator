@@ -28,7 +28,7 @@ I like making projects which are not just basic tutorials and try to add my own 
 
 **Smart Library Management System:** A desktop library management system made for managing books, students and issue/return records.
 
-**JASHAN AIR TYPE:** A small computer vision project where hand movements are used to type without using a physical keyboard.
+**AIR TYPE:** A small computer vision project where hand movements are used to type without using a physical keyboard.
 
 **Interactive Science Projects:** Projects where I try to use cameras, gestures and software to make science topics more interesting and interactive.
 
