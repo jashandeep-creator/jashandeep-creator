@@ -1,10 +1,11 @@
 # Hey, I'm Jashandeep Singh 👋
 
-I'm currently a high school student, graphic designer and developer. I like making things with code and trying out new ideas whenever I get one. I mostly work with Python and Java, but I also enjoy working with AI, computer vision, automation and hardware projects.
+I'm a high school student, graphic designer and developer. I like making things with code and trying out new ideas whenever I get one. I mostly work with Python and Java, and I enjoy projects involving AI, computer vision, automation and hardware.
 
-I started coding because I wanted to make my own things instead of just using what was already available. Sometimes I start a project just because I think it would be cool to make it, and then I keep adding things until it actually becomes useful.
+I started coding because I wanted to build my own things instead of only using what already existed. Some projects begin simply because I think they'd be cool to make, and I keep adding features until they become genuinely useful.
 
-I am still learning a lot and definitely break things quite often while building projects 😅. But I enjoy finding the problem, fixing it and seeing the project finally work.
+I'm still learning, and I break things often while building 😅. But I enjoy tracking down the problem, fixing it, and finally seeing the project work.
+
 
 ### Tech Stack & Tools
 
@@ -32,8 +33,15 @@ I like making projects which are not just basic tutorials and try to add my own 
 
 **Interactive Science Projects:** Projects where I try to use cameras, gestures and software to make science topics more interesting and interactive.
 
-### Outside Coding
-
-Apart from coding, I like graphic designing, video editing, live streaming and working on different projects. I also like experimenting with hardware and trying things which I have never made before.
 
 I'm still learning and figuring things out, but I enjoy building stuff and seeing an idea turn into something that actually works.
+
+## Outside Coding
+
+Besides coding, I enjoy graphic design, live streaming and working on all kinds of projects. I also like experimenting with hardware and building things I've never tried before.
+
+I'm still figuring things out, but I love building and watching an idea turn into something that actually works.
+
+## Contact
+
+📧 jashandeep.gr@gmail.com
