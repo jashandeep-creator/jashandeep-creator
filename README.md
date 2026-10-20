@@ -25,7 +25,7 @@ I'm still learning, and I break things often while building 😅. But I enjoy tr
 
 I like making projects which are not just basic tutorials and try to add my own ideas to them.
 
-**LifeSearch:** A file search app which helps find files using normal descriptions instead of remembering the exact file name or folder.
+**MindVault:** A file search app which helps find files using normal descriptions instead of remembering the exact file name or folder.
 
 **Smart Library Management System:** A desktop library management system made for managing books, students and issue/return records.
 
