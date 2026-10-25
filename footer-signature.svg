@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="1200" height="130" role="img">
+  <defs>
+    <linearGradient id="fs-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#190B12"/>
+      <stop offset=".5" stop-color="#701A3D"/>
+      <stop offset="1" stop-color="#190B12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="130" rx="18" fill="url(#fs-bg)"/>
+  <rect width="1198" height="128" x="1" y="1" rx="17" fill="none" stroke="#C77B9B" stroke-width="1.5" stroke-opacity=".3"/>
+  <text x="600" y="55" font-family="'Courier New', monospace" font-size="14" fill="#E5B5C7" letter-spacing="3" text-anchor="middle">JASHANDEEP SINGH</text>
+  <text x="600" y="90" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#F8F0F3" text-anchor="middle">Building software that can explain and run itself.</text>
+</svg>
