@@ -1,12 +1,5 @@
 <div align="center">
-  <!-- 📸 Your Profile Photo from GitHub -->
-  <a href="https://github.com/jashandeep-creator">
-    <img src="https://github.com/jashandeep-creator.png" width="130" height="130" alt="Jashandeep Singh" />
-  </a>
-
-  <br/><br/>
-
-  <!-- 🍷 Animated Header Banner with Gliding Cursor -->
+  <!-- 🍷 Hero Banner with Your Photo Inside the Circle & Gliding Cursor -->
   <img src="./hero-banner.svg" width="100%" alt="Jashandeep Singh">
 
   <br/><br/>
