@@ -1,16 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img">
   <defs>
+    <!-- Background Gradient -->
     <linearGradient id="hb-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#190B12"/>
       <stop offset="1" stop-color="#0E050A"/>
     </linearGradient>
+
+    <!-- Radial Burgundy Glow -->
     <radialGradient id="hb-glow" cx="80%" cy="30%" r="60%">
-      <stop offset="0" stop-color="#701A3D" stop-opacity=".7"/>
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".75"/>
       <stop offset="1" stop-color="#451126" stop-opacity="0"/>
     </radialGradient>
+
+    <!-- Technical Grid Pattern -->
     <pattern id="hb-grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#C77B9B" stroke-opacity=".07"/>
+      <path d="M28 0H0V28" fill="none" stroke="#C77B9B" stroke-opacity=".08"/>
     </pattern>
+
+    <!-- Shimmering Text Gradient -->
     <linearGradient id="hb-shimmer" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
       <stop offset="0" stop-color="#E5B5C7"/>
       <stop offset=".5" stop-color="#FFFFFF"/>
@@ -19,20 +26,51 @@
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="320" rx="18" fill="url(#hb-bg)"/>
-  <rect width="1200" height="320" rx="18" fill="url(#hb-glow)"/>
-  <rect width="1200" height="320" rx="18" fill="url(#hb-grid)"/>
-  <rect width="1198" height="318" x="1" y="1" rx="17" fill="none" stroke="#701A3D" stroke-width="1.5" stroke-opacity=".5"/>
+  <!-- Frame Backgrounds -->
+  <rect width="1200" height="350" rx="18" fill="url(#hb-bg)"/>
+  <rect width="1200" height="350" rx="18" fill="url(#hb-glow)"/>
+  <rect width="1200" height="350" rx="18" fill="url(#hb-grid)"/>
+  <rect width="1198" height="348" x="1" y="1" rx="17" fill="none" stroke="#701A3D" stroke-width="1.5" stroke-opacity=".6"/>
 
-  <text x="70" y="85" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#C77B9B" letter-spacing="4">DEVELOPER • GRAPHIC DESIGNER • CREATIVE TECHNOLOGIST</text>
-  <text x="70" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" fill="url(#hb-shimmer)">Jashandeep Singh</text>
-  <text x="70" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#B6A3AC">Building offline AI utilities, sensory computer vision & interactive 3D web.</text>
-  <text x="70" y="245" font-family="'Courier New', monospace" font-size="14" fill="#E5B5C7">✦ Turning raw ideas into software that actually works.</text>
+  <!-- Terminal Header Bar -->
+  <circle cx="50" cy="40" r="6" fill="#701A3D" />
+  <circle cx="70" cy="40" r="6" fill="#451126" />
+  <circle cx="90" cy="40" r="6" fill="#2B0910" />
+  <text x="120" y="45" font-family="'Courier New', monospace" font-size="13" fill="#8F7883">bash ~/jashandeep/profile --live</text>
 
-  <circle cx="1080" cy="90" r="4" fill="#E5B5C7" opacity=".8">
+  <!-- Main Titles -->
+  <text x="70" y="110" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#C77B9B" letter-spacing="4">DEVELOPER • GRAPHIC DESIGNER • AI &amp; ROBOTICS</text>
+  <text x="70" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" fill="url(#hb-shimmer)">Jashandeep Singh</text>
+  <text x="70" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#B6A3AC">Building offline AI utilities, sensory computer vision &amp; interactive 3D web.</text>
+  
+  <!-- Terminal Status with Blinking Cursor -->
+  <text x="70" y="270" font-family="'Courier New', monospace" font-size="15" fill="#E5B5C7">$ status: compiling ideas into production tools</text>
+  <rect x="525" y="255" width="10" height="18" fill="#E5B5C7">
+    <animate attributeName="opacity" values="1;0;1" dur="0.85s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Twinkling Stars -->
+  <circle cx="1080" cy="110" r="4" fill="#E5B5C7">
     <animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1020" cy="180" r="3" fill="#C77B9B" opacity=".6">
-    <animate attributeName="opacity" values=".6;.1;.6" dur="4s" repeatCount="indefinite"/>
+  <circle cx="980" cy="220" r="3" fill="#C77B9B">
+    <animate attributeName="opacity" values=".8;.2;.8" dur="4s" repeatCount="indefinite"/>
   </circle>
+
+  <!-- 🖱️ Animated Gliding Mouse Cursor with Click Pulse -->
+  <g>
+    <!-- Smooth Flight Path -->
+    <animateTransform attributeName="transform" type="translate" 
+      values="1000,300; 450,165; 450,165; 820,240; 1000,300" 
+      keyTimes="0; 0.35; 0.55; 0.8; 1" dur="7s" repeatCount="indefinite"/>
+    
+    <!-- Expanding Click Ripple -->
+    <circle cx="0" cy="0" r="0" fill="none" stroke="#E5B5C7" stroke-width="2.5">
+      <animate attributeName="r" values="0;26;0" keyTimes="0;0.5;1" dur="7s" begin="2.45s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0;0" keyTimes="0;0.5;1" dur="7s" begin="2.45s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Cursor Pointer Arrow -->
+    <path d="M0,0 L0,22 L6,17 L11,26 L15,24 L10,15 L17,15 Z" fill="#F8F0F3" stroke="#701A3D" stroke-width="2"/>
+  </g>
 </svg>
