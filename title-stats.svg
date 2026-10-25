@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110" role="img">
+  <defs>
+    <linearGradient id="ts-line" x1="40" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C77B9B"/>
+      <stop offset=".6" stop-color="#701A3D"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ts-sheen" x1="-300" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E5B5C7"/>
+      <stop offset=".5" stop-color="#F8F0F3"/>
+      <stop offset="1" stop-color="#E5B5C7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="110" fill="#190B12" rx="14"/>
+  <text x="50" y="42" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#C77B9B" letter-spacing="3">04 / COMMIT LOG</text>
+  <text x="50" y="80" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="url(#ts-sheen)">Activity — Consistent building, iteration &amp; growth.</text>
+  <path d="M50 96 L1150 96" stroke="url(#ts-line)" stroke-width="1.5"/>
+</svg>
