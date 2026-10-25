@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" role="img">
+  <defs>
+    <linearGradient id="ca-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+    <pattern id="ca-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#C77B9B" stroke-opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="270" rx="18" fill="url(#ca-bg)"/>
+  <rect width="1200" height="270" rx="18" fill="url(#ca-grid)"/>
+  <rect width="1198" height="268" x="1" y="1" rx="17" fill="none" stroke="#701A3D" stroke-width="1.5" stroke-opacity=".4"/>
+
+  <text x="50" y="55" font-family="'Courier New', monospace" font-size="13" fill="#E5B5C7" letter-spacing="2">CORE IDENTITY &amp; PHILOSOPHY</text>
+  <text x="50" y="100" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#F8F0F3">"I build my own things instead of only using what already exists."</text>
+  <text x="50" y="140" font-family="system-ui, sans-serif" font-size="16" fill="#B6A3AC">I'm a high school student, graphic designer and developer who loves experimenting with code, AI and hardware.</text>
+  <text x="50" y="170" font-family="system-ui, sans-serif" font-size="16" fill="#B6A3AC">I break things often while building 😅 — but I enjoy tracking down problems, fixing them, and seeing ideas come alive.</text>
+
+  <!-- Tags -->
+  <rect x="50" y="205" width="110" height="32" rx="6" fill="#451126" stroke="#701A3D"/>
+  <text x="70" y="226" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#F8F0F3">Developer</text>
+
+  <rect x="175" y="205" width="150" height="32" rx="6" fill="#451126" stroke="#701A3D"/>
+  <text x="195" y="226" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#F8F0F3">Graphic Designer</text>
+
+  <rect x="340" y="205" width="180" height="32" rx="6" fill="#451126" stroke="#701A3D"/>
+  <text x="360" y="226" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#F8F0F3">AI &amp; Computer Vision</text>
+
+  <rect x="535" y="205" width="180" height="32" rx="6" fill="#451126" stroke="#701A3D"/>
+  <text x="555" y="226" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#F8F0F3">Arduino &amp; Robotics</text>
+</svg>
