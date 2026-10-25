@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img">
+  <defs>
+    <linearGradient id="cs-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+    <pattern id="cs-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#C77B9B" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="330" rx="18" fill="url(#cs-bg)"/>
+  <rect width="1200" height="330" rx="18" fill="url(#cs-grid)"/>
+  <rect width="1198" height="328" x="1" y="1" rx="17" fill="none" stroke="#701A3D" stroke-width="1.5" stroke-opacity=".4"/>
+
+  <!-- Row 1: Languages -->
+  <text x="50" y="55" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#E5B5C7">LANGUAGES</text>
+  <text x="50" y="85" font-family="system-ui, sans-serif" font-size="16" fill="#F8F0F3">Python  •  Java  •  C++ (Arduino)  •  JavaScript  •  HTML5</text>
+
+  <!-- Row 2: Vision & Desktop -->
+  <text x="50" y="130" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#E5B5C7">DESKTOP &amp; AI / VISION</text>
+  <text x="50" y="160" font-family="system-ui, sans-serif" font-size="16" fill="#F8F0F3">PySide6  •  CustomTkinter  •  OpenCV  •  MediaPipe  •  OCR  •  Three.js</text>
+
+  <!-- Row 3: Hardware & Robotics -->
+  <text x="50" y="205" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#E5B5C7">HARDWARE &amp; ROBOTICS</text>
+  <text x="50" y="235" font-family="system-ui, sans-serif" font-size="16" fill="#F8F0F3">Arduino  •  Sensors &amp; Actuators  •  Motor Drivers  •  Physical Computing</text>
+
+  <!-- Row 4: Design & Ecosystem -->
+  <text x="50" y="280" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#E5B5C7">DESIGN &amp; ECOSYSTEM</text>
+  <text x="50" y="305" font-family="system-ui, sans-serif" font-size="16" fill="#F8F0F3">Adobe Photoshop  •  Figma  •  Canva  •  CorelDRAW  •  Git / GitHub  •  OBS Studio</text>
+</svg>
