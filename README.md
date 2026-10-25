@@ -1,30 +1,42 @@
-<div align="center">
+<img src="assets/hero-banner.svg" width="100%" alt="Jashandeep Singh">
 
-  <!-- 🍷 Animated Burgundy Wavy Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2B0910,4A0E17,800020,8B1E34&height=240&section=header&text=✦%20Hey,%20I'm%20Jashandeep%20Singh%20✦&fontSize=36&fontColor=FFFFFF&animation=twinkling&fontAlignY=36&desc=High%20School%20Developer%20•%20Graphic%20Designer%20•%20Hardware%20%26%20AI%20Builder&descSize=16&descColor=E8B4B8&descAlignY=60" width="100%" alt="Header Banner" />
+<p align="center">
+  <a href="mailto:jashandeep.gr@gmail.com"><img src="https://img.shields.io/badge/Email-jashandeep.gr%40gmail.com-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=gmail" alt="Email"></a>
+  <a href="https://github.com/jashandeep-creator?tab=repositories"><img src="https://img.shields.io/badge/GitHub-jashandeep--creator-701A3D?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="GitHub"></a>
+  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20Vision%20%7C%20Hardware-451126?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3" alt="Focus">
+</p>
 
-  <!-- ✨ Dynamic Typing Banner -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=20&duration=3000&pause=1000&color=E8B4B8&center=true&vCenter=true&width=650&lines=High+School+Developer+%26+Graphic+Designer;Building+AI,+Computer+Vision+%26+Automation+Tools;Creator+of+MindVault+%26+AIR+TYPE;Hardware+Tinkerer+%26+Robotics+Enthusiast;Turning+Raw+Ideas+Into+Functional+Software" alt="Typing SVG" />
-  </a>
+<img src="assets/title-about.svg" width="100%" alt="01 About">
+<img src="assets/card-about.svg" width="100%" alt="About Jashandeep">
 
-  <br/><br/>
+<img src="assets/title-projects.svg" width="100%" alt="02 Selected Works">
 
-  <!-- 🏷️ Burgundy Accent Connect Badges -->
-  <p align="center">
-    <a href="mailto:jashandeep.gr@gmail.com"><img src="https://img.shields.io/badge/Email-jashandeep.gr%40gmail.com-4A0E17?style=for-the-badge&logo=gmail&logoColor=E8B4B8" alt="Email" /></a>
-    <a href="https://github.com/jashandeep-creator?tab=repositories"><img src="https://img.shields.io/badge/Repositories-800020?style=for-the-badge&logo=github&logoColor=E8B4B8" alt="Repos" /></a>
-    <img src="https://komarev.com/ghpvc/?username=jashandeep-creator&label=PROFILE+VIEWS&style=for-the-badge&color=8B1E34" alt="Profile Views" />
-  </p>
-</div>
+<a href="https://github.com/jashandeep-creator/MindVault">
+  <img src="assets/project-mindvault.svg" width="100%" alt="MindVault">
+</a>
+<p align="center">
+  <a href="https://github.com/jashandeep-creator/MindVault"><img src="https://img.shields.io/badge/Repository-MindVault-451126?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="MindVault repository"></a>
+</p>
 
----
+<a href="https://github.com/jashandeep-creator/AIR-TYPE">
+  <img src="assets/project-airtype.svg" width="100%" alt="AIR TYPE">
+</a>
+<p align="center">
+  <a href="https://github.com/jashandeep-creator/AIR-TYPE"><img src="https://img.shields.io/badge/Repository-AIR--TYPE-451126?style=for-the-badge&labelColor=190B12&logoColor=F8F0F3&logo=github" alt="AIR TYPE repository"></a>
+</p>
 
-### ✦ About Me
+<img src="assets/title-toolkit.svg" width="100%" alt="03 Toolkit">
+<img src="assets/card-skills.svg" width="100%" alt="Skills Matrix">
 
-```yaml
-profile:
-  name: Jashandeep Singh
-  role: High School Student, Developer & Graphic Designer
-  passions: AI, Computer Vision, Robotics & Interactive Science
-  motto: "I build my own tools instead of just using what already exists."
+<img src="assets/title-stats.svg" width="100%" alt="04 Commit Log">
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jashandeep-creator&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=190B12&title_color=E5B5C7&text_color=B6A3AC&icon_color=C77B9B&custom_title=GitHub%20at%20a%20glance" width="48%" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jashandeep-creator&layout=compact&hide_border=true&border_radius=16&bg_color=190B12&title_color=E5B5C7&text_color=B6A3AC" width="48%" alt="Top Languages">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=jashandeep-creator&background=190B12&ring=701A3D&fire=C77B9B&currStreakLabel=E5B5C7&currStreakNum=F8F0F3&sideNums=F8F0F3&sideLabels=E5B5C7&dates=B6A3AC&border_radius=16&hide_border=true" width="97%" alt="Streak Stats">
+</p>
+
+<img src="assets/footer-signature.svg" width="100%" alt="Signature">
