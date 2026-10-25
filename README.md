@@ -1,47 +1,30 @@
-# Hey, I'm Jashandeep Singh 👋
+<div align="center">
 
-I'm a high school student, graphic designer and developer. I like making things with code and trying out new ideas whenever I get one. I mostly work with Python and Java, and I enjoy projects involving AI, computer vision, automation and hardware.
+  <!-- 🍷 Animated Burgundy Wavy Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2B0910,4A0E17,800020,8B1E34&height=240&section=header&text=✦%20Hey,%20I'm%20Jashandeep%20Singh%20✦&fontSize=36&fontColor=FFFFFF&animation=twinkling&fontAlignY=36&desc=High%20School%20Developer%20•%20Graphic%20Designer%20•%20Hardware%20%26%20AI%20Builder&descSize=16&descColor=E8B4B8&descAlignY=60" width="100%" alt="Header Banner" />
 
-I started coding because I wanted to build my own things instead of only using what already existed. Some projects begin simply because I think they'd be cool to make, and I keep adding features until they become genuinely useful.
+  <!-- ✨ Dynamic Typing Banner -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=20&duration=3000&pause=1000&color=E8B4B8&center=true&vCenter=true&width=650&lines=High+School+Developer+%26+Graphic+Designer;Building+AI,+Computer+Vision+%26+Automation+Tools;Creator+of+MindVault+%26+AIR+TYPE;Hardware+Tinkerer+%26+Robotics+Enthusiast;Turning+Raw+Ideas+Into+Functional+Software" alt="Typing SVG" />
+  </a>
 
-I'm still learning, and I break things often while building 😅. But I enjoy tracking down the problem, fixing it, and finally seeing the project work.
+  <br/><br/>
 
+  <!-- 🏷️ Burgundy Accent Connect Badges -->
+  <p align="center">
+    <a href="mailto:jashandeep.gr@gmail.com"><img src="https://img.shields.io/badge/Email-jashandeep.gr%40gmail.com-4A0E17?style=for-the-badge&logo=gmail&logoColor=E8B4B8" alt="Email" /></a>
+    <a href="https://github.com/jashandeep-creator?tab=repositories"><img src="https://img.shields.io/badge/Repositories-800020?style=for-the-badge&logo=github&logoColor=E8B4B8" alt="Repos" /></a>
+    <img src="https://komarev.com/ghpvc/?username=jashandeep-creator&label=PROFILE+VIEWS&style=for-the-badge&color=8B1E34" alt="Profile Views" />
+  </p>
+</div>
 
-### Tech Stack & Tools
+---
 
-**Languages:** Python, Java, HTML, C++ (Arduino)
+### ✦ About Me
 
-**Desktop Apps:** PySide6, CustomTkinter
-
-**AI & Computer Vision:** OpenCV, AI APIs, OCR, Hand Tracking
-
-**Hardware:** Arduino, Sensors, Motors, Motor Drivers and Robotics
-
-**Design:** Photoshop, Canva, Figma, CorelDRAW
-
-**Other:** GitHub, SQLite, OBS, WebRTC and REST APIs
-
-### Some Things I've Built
-
-I like making projects which are not just basic tutorials and try to add my own ideas to them.
-
-**MindVault:** A file search app which helps find files using normal descriptions instead of remembering the exact file name or folder.
-
-**Smart Library Management System:** A desktop library management system made for managing books, students and issue/return records.
-
-**AIR TYPE:** A small computer vision project where hand movements are used to type without using a physical keyboard.
-
-**Interactive Science Projects:** Projects where I try to use cameras, gestures and software to make science topics more interesting and interactive.
-
-
-I'm still learning and figuring things out, but I enjoy building stuff and seeing an idea turn into something that actually works.
-
-## Outside Coding
-
-Besides coding, I enjoy graphic design, live streaming and working on all kinds of projects. I also like experimenting with hardware and building things I've never tried before.
-
-I'm still figuring things out, but I love building and watching an idea turn into something that actually works.
-
-## Contact
-
-📧 jashandeep.gr@gmail.com
+```yaml
+profile:
+  name: Jashandeep Singh
+  role: High School Student, Developer & Graphic Designer
+  passions: AI, Computer Vision, Robotics & Interactive Science
+  motto: "I build my own tools instead of just using what already exists."
