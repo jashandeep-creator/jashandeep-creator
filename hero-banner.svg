@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img">
+  <defs>
+    <linearGradient id="hb-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#0E050A"/>
+    </linearGradient>
+    <radialGradient id="hb-glow" cx="80%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#451126" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="hb-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#C77B9B" stroke-opacity=".07"/>
+    </pattern>
+    <linearGradient id="hb-shimmer" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#E5B5C7"/>
+      <stop offset=".5" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E5B5C7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1600 0;1600 0" keyTimes="0;.4;1" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#hb-bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#hb-glow)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#hb-grid)"/>
+  <rect width="1198" height="318" x="1" y="1" rx="17" fill="none" stroke="#701A3D" stroke-width="1.5" stroke-opacity=".5"/>
+
+  <text x="70" y="85" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#C77B9B" letter-spacing="4">DEVELOPER • GRAPHIC DESIGNER • CREATIVE TECHNOLOGIST</text>
+  <text x="70" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" fill="url(#hb-shimmer)">Jashandeep Singh</text>
+  <text x="70" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#B6A3AC">Building offline AI utilities, sensory computer vision & interactive 3D web.</text>
+  <text x="70" y="245" font-family="'Courier New', monospace" font-size="14" fill="#E5B5C7">✦ Turning raw ideas into software that actually works.</text>
+
+  <circle cx="1080" cy="90" r="4" fill="#E5B5C7" opacity=".8">
+    <animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1020" cy="180" r="3" fill="#C77B9B" opacity=".6">
+    <animate attributeName="opacity" values=".6;.1;.6" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
