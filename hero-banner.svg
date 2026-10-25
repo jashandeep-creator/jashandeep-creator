@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="hb-bg" x1="0" y1="0" x2="1" y2="1">
@@ -7,7 +7,7 @@
     </linearGradient>
 
     <!-- Radial Burgundy Glow -->
-    <radialGradient id="hb-glow" cx="80%" cy="30%" r="60%">
+    <radialGradient id="hb-glow" cx="80%" cy="40%" r="65%">
       <stop offset="0" stop-color="#701A3D" stop-opacity=".75"/>
       <stop offset="1" stop-color="#451126" stop-opacity="0"/>
     </radialGradient>
@@ -24,47 +24,71 @@
       <stop offset="1" stop-color="#E5B5C7"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1600 0;1600 0" keyTimes="0;.4;1" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
+
+    <!-- Circular Avatar Clip -->
+    <clipPath id="avatar-clip">
+      <circle cx="1030" cy="190" r="105"/>
+    </clipPath>
   </defs>
 
   <!-- Frame Backgrounds -->
-  <rect width="1200" height="350" rx="18" fill="url(#hb-bg)"/>
-  <rect width="1200" height="350" rx="18" fill="url(#hb-glow)"/>
-  <rect width="1200" height="350" rx="18" fill="url(#hb-grid)"/>
-  <rect width="1198" height="348" x="1" y="1" rx="17" fill="none" stroke="#701A3D" stroke-width="1.5" stroke-opacity=".6"/>
+  <rect width="1200" height="380" rx="18" fill="url(#hb-bg)"/>
+  <rect width="1200" height="380" rx="18" fill="url(#hb-glow)"/>
+  <rect width="1200" height="380" rx="18" fill="url(#hb-grid)"/>
+  <rect width="1198" height="378" x="1" y="1" rx="17" fill="none" stroke="#701A3D" stroke-width="1.5" stroke-opacity=".6"/>
 
   <!-- Terminal Header Bar -->
   <circle cx="50" cy="40" r="6" fill="#701A3D" />
   <circle cx="70" cy="40" r="6" fill="#451126" />
   <circle cx="90" cy="40" r="6" fill="#2B0910" />
-  <text x="120" y="45" font-family="'Courier New', monospace" font-size="13" fill="#8F7883">bash ~/jashandeep/profile --live</text>
+  <text x="120" y="45" font-family="'Courier New', monospace" font-size="13" fill="#8F7883">bash ~/jashandeep/profile --portrait</text>
 
-  <!-- Main Titles -->
-  <text x="70" y="110" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#C77B9B" letter-spacing="4">DEVELOPER • GRAPHIC DESIGNER • AI &amp; ROBOTICS</text>
-  <text x="70" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" fill="url(#hb-shimmer)">Jashandeep Singh</text>
-  <text x="70" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#B6A3AC">Building offline AI utilities, sensory computer vision &amp; interactive 3D web.</text>
+  <!-- Main Titles & Details -->
+  <text x="65" y="115" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#C77B9B" letter-spacing="4">DEVELOPER • GRAPHIC DESIGNER • AI &amp; ROBOTICS</text>
+  <text x="65" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="50" font-weight="800" fill="url(#hb-shimmer)">Jashandeep Singh</text>
+  <text x="65" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="19" fill="#B6A3AC">Building offline AI utilities, sensory computer vision &amp; interactive 3D web.</text>
   
-  <!-- Terminal Status with Blinking Cursor -->
-  <text x="70" y="270" font-family="'Courier New', monospace" font-size="15" fill="#E5B5C7">$ status: compiling ideas into production tools</text>
-  <rect x="525" y="255" width="10" height="18" fill="#E5B5C7">
+  <!-- Terminal Status with Blinking Caret -->
+  <text x="65" y="285" font-family="'Courier New', monospace" font-size="15" fill="#E5B5C7">$ status: compiling ideas into production tools</text>
+  <rect x="520" y="270" width="10" height="18" fill="#E5B5C7">
     <animate attributeName="opacity" values="1;0;1" dur="0.85s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Twinkling Stars -->
-  <circle cx="1080" cy="110" r="4" fill="#E5B5C7">
-    <animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="980" cy="220" r="3" fill="#C77B9B">
-    <animate attributeName="opacity" values=".8;.2;.8" dur="4s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Tags -->
+  <rect x="65" y="315" width="90" height="28" rx="6" fill="#451126" stroke="#701A3D"/>
+  <text x="82" y="334" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#F8F0F3">Python</text>
 
-  <!-- 🖱️ Animated Gliding Mouse Cursor with Click Pulse -->
+  <rect x="165" y="315" width="85" height="28" rx="6" fill="#451126" stroke="#701A3D"/>
+  <text x="185" y="334" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#F8F0F3">Java</text>
+
+  <rect x="260" y="315" width="145" height="28" rx="6" fill="#451126" stroke="#701A3D"/>
+  <text x="277" y="334" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#F8F0F3">Computer Vision</text>
+
+  <rect x="415" y="315" width="100" height="28" rx="6" fill="#451126" stroke="#701A3D"/>
+  <text x="432" y="334" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#F8F0F3">Arduino</text>
+
+  <!-- 📸 Profile Portrait with Rotating Celestial Ring -->
   <g>
-    <!-- Smooth Flight Path -->
+    <!-- Outer Orbit Animation -->
+    <circle cx="1030" cy="190" r="118" fill="none" stroke="#701A3D" stroke-width="1.5" stroke-dasharray="6,4">
+      <animateTransform attributeName="transform" type="rotate" from="0 1030 190" to="360 1030 190" dur="25s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Solid Burgundy Ring -->
+    <circle cx="1030" cy="190" r="109" fill="none" stroke="#701A3D" stroke-width="4"/>
+    <circle cx="1030" cy="190" r="106" fill="none" stroke="#E5B5C7" stroke-width="1.5"/>
+
+    <!-- Profile Image from your GitHub account -->
+    <image href="https://avatars.githubusercontent.com/u/292500690?v=4" x="925" y="85" width="210" height="210" clip-path="url(#avatar-clip)" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+
+  <!-- 🖱️ Animated Gliding Mouse Cursor with Click Ripple -->
+  <g>
     <animateTransform attributeName="transform" type="translate" 
-      values="1000,300; 450,165; 450,165; 820,240; 1000,300" 
+      values="880,310; 450,175; 450,175; 760,250; 880,310" 
       keyTimes="0; 0.35; 0.55; 0.8; 1" dur="7s" repeatCount="indefinite"/>
     
-    <!-- Expanding Click Ripple -->
+    <!-- Click Ripple -->
     <circle cx="0" cy="0" r="0" fill="none" stroke="#E5B5C7" stroke-width="2.5">
       <animate attributeName="r" values="0;26;0" keyTimes="0;0.5;1" dur="7s" begin="2.45s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;0;0" keyTimes="0;0.5;1" dur="7s" begin="2.45s" repeatCount="indefinite"/>
